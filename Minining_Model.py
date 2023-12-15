@@ -119,7 +119,6 @@ for epoch in range(epoches):
     model.train()
     correct = 0.0
     items = 0.0
-
     for X, y in train_loader:
         X, y = X.to(device), y.to(device)
 
