@@ -23,7 +23,6 @@ dataset=ImageFolder(img_path,transform=ToTensor())
 dataset
 dataset.classes
 
-
 # Input data files are available in the read-only "../input/" directory
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
 
