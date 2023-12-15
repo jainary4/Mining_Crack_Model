@@ -17,7 +17,6 @@ import torch.nn as nn
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import ConfusionMatrixDisplay
 
-
 img_path="/kaggle/input/surface-crack-detection"
 dataset=ImageFolder(img_path,transform=ToTensor())
 dataset
